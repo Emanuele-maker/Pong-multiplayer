@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS";
+}
+
+.game {
+    display: none;
+}
+
+#canvas {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.game h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+button {
+    background-color: rgb(117, 149, 236);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.menu input {
+    margin: 15px 0;
+}

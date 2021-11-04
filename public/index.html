@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pong</title>
+</head>
+
+<body>
+    <div class="menu">
+        <button id="create-game">Create a new game</button>
+        <input type="text" placeholder="game code" id="game-code-input">
+        <button id="join-game">Join Game</button>
+    </div>
+    <div class="game">
+        <h1>Game Code: <span id="game-code">the game code</span></h1>
+        <canvas id="canvas">Upgrade your fucking browser</canvas>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js" type="module" defer></script>
+</body>
+
+</html>
