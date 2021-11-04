@@ -12,13 +12,6 @@ class Ball {
             y: 3
         }
     }
-    increaseSpeed() {
-        if (this.speed.x < 0) {
-            this.speed.x += -0.1
-        } else {
-            this.speed.x += 0.1
-        }
-    }
     update() {
         this.position.x += this.speed.x
         this.position.y += this.speed.y
