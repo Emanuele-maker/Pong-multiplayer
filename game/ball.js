@@ -19,12 +19,10 @@ class Ball {
         if (this.position.x - 10 <= 0) {
             this.position.x = 10
             this.speed.x = -this.speed.x
-            this.increaseSpeed()
         }
         if (this.position.x + this.radius + 10 >= this.gameWidth) {
             this.position.x = this.gameWidth - this.radius - 10
             this.speed.x = -this.speed.x
-            this.increaseSpeed()
         }
     }
 }
